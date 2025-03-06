@@ -1,0 +1,242 @@
+/* ESTILO GENERAL */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #white;
+    text-align: center;
+}
+
+/* MENU */
+.menu {
+  background-color: #333333;
+  overflow: hidden; 
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #575757;
+}
+
+.titulo-menu {
+  color: white;
+  font-size: 1.5em;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+/* INICIO */
+#inicio {
+  background-color: #E1EDF7;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#inicio h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contenedor-inicio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.inicio-imagen {
+  flex: 1;
+  text-align: center;
+}
+
+.inicio-imagen img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formulario-container {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-width: 450px;
+  text-align: left;
+}
+
+.formulario-container h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.formulario-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  width: 90%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* QUIENES SOMOS Y SERVICIOS */
+.contenedor-secciones {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+#quienes-somos, #servicios {
+  flex: 1;
+  background-color: #eaeaea;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+  max-width: 45%;
+  text-align: justify;
+}
+
+#quienes-somos h1, #servicios h1 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+#quienes-somos p, #servicios p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #555;
+  text-align: justify;
+}
+
+#servicios ul {
+  list-style: disc inside;
+  margin: 10px 0 0 20px;
+  text-align: justify;
+}
+
+#quienes-somos ul, #servicios ul li {
+  text-align: justify;
+}
+
+/* GALERIA */
+#galeria img {
+  width: 550px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.caja-galeria {
+  background-color: #eaeaea;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.caja-galeria h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.caja-galeria p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.caja-galeria img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.caja-galeria button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 5px;
+}
+
+.caja-galeria button:hover {
+  background-color: #575757;
+}
+
+/* FINAL DE LA PAGINA */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-contacto {
+  margin-bottom: 15px;
+}
+
+.info-contacto p {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.copyright p {
+  font-size: 0.9em;
+  color: #ccc;
+}

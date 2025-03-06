@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="imagenes/logo3.png" type="image1">
+<title>C.E José Gregorio Monagas</title>
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <nav class="menu">
+    <div class="titulo-menu">C.E José Gregorio Monagas</div>
+    <ul>
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#quienes-somos">Quiénes Somos</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#galeria">Galería</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    </nav>
+    
+
+    <!--Inicio -->
+<section id="inicio">
+  <h1>Complejo Educativo José Gregorio Monagas</h1>
+
+  <!-- Contenedor para imagen y formulario -->
+  <div class="contenedor-inicio">
+  <div class="inicio-imagen">
+  <img src="imagenes/logo4.png" alt="Logo del Liceo">
+  </div>
+
+    <div class="formulario-container">
+    <h2>Formulario de Contacto</h2>
+        <form action="#" method="post">
+        
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres" placeholder="Ingresa tus nombres" required>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Ingresa tus apellidos" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+    </div>
+    </section>
+
+    
+    <!-- ¿Quiénes Somos?-->
+    </section>
+
+    <div class="contenedor-secciones">
+    <section id="quienes-somos">
+    <h1>¿Quiénes Somos?</h1>
+    
+    <p>El Complejo Educativo José Gregorio Monagas, anteriormente conocido como Liceo José Gregorio Monagas, es una institución educativa ubicada en la ciudad de Punta de Mata, Municipio Autónomo Ezequiel Zamora, Estado Monagas, Venezuela. Con más de 50 años de historia, esta institución ha sido un referente en la formación académica de jóvenes en la región.
+
+    Con una matrícula de aproximadamente 3,000 estudiantes, el Complejo Educativo ofrece educación secundaria y fomenta una formación integral en sus alumnos, basada en valores fundamentales como el respeto, la responsabilidad y el compromiso social. Además, durante las noches y los fines de semana, sirve como aldea universitaria para la Universidad Bolivariana de Venezuela, ampliando su impacto educativo más allá de la enseñanza secundaria.
+
+    Esta institución tiene como misión formar ciudadanos íntegros y preparados para los retos del futuro, mientras se enfoca en la excelencia académica, el aprendizaje continuo y la inclusión educativa. Su visión es convertirse en un modelo de referencia en la región, promoviendo la innovación y el desarrollo en la comunidad educativa.</p>
+    
+    </section>
+
+    
+    <!--Servicios-->
+    <section id="servicios">
+    <h1>Servicios</h1>
+  
+    <p>El Complejo Educativo José Gregorio Monagas ofrece una variedad de servicios educativos y comunitarios diseñados para fomentar el desarrollo integral de sus estudiantes y la comunidad. Estos servicios incluyen:</p>
+  
+    <ul>
+    <li><strong>Educación Secundaria:</strong> Formación académica de calidad para estudiantes de educación media, con un enfoque en valores y habilidades para el futuro.</li>
+    <li><strong>Programas de Inclusión:</strong> Espacios educativos para garantizar la igualdad de oportunidades, promoviendo la integración de todos los estudiantes.</li>
+    <li><strong>Actividades Culturales y Deportivas:</strong> Organización de eventos culturales, deportivos y recreativos para el desarrollo físico y emocional de los estudiantes.</li>
+    <li><strong>Uso Comunitario:</strong> En horario nocturno y fines de semana, el complejo sirve como aldea universitaria para la Universidad Bolivariana de Venezuela, ampliando su impacto educativo.</li>
+    <li><strong>Entrega de Recursos Tecnológicos:</strong> Distribución de computadoras Canaima para estudiantes y docentes, facilitando el acceso a herramientas tecnológicas.</li>
+    <li><strong>Plan de Alimentación Escolar:</strong> Garantía de una alimentación balanceada para los estudiantes, promoviendo su bienestar físico y mental.</li>
+    </ul>
+
+    </section>
+    </div>
+
+    
+    <!--Galeria -->
+    <section id="galeria">
+    <div class="caja-galeria">
+    <h2>Galería de Imágenes</h2>
+    <img id="imagenGaleria" src="imagenes/ima1.png" alt="Imagen de la galería">
+    <br>
+    <button id="boton-anterior" aria-label="Imagen anterior">❮ Anterior</button>
+    <button id="boton-siguiente" aria-label="Imagen siguiente">Siguiente ❯</button>
+    </div>
+    </section>
+
+    <script src="app.js"></script>
+
+  
+  <!--Contacto-->
+  <footer id="contacto" class="footer">
+  <div class="info-contacto">
+  <p><strong>Contacto:</strong></p>
+  <p>Dirección: M9RM+973, Punta de Mata 6217, Monagas</p>
+  <p>Teléfono: +58 4124112757</p>
+  <p>Correo Electrónico: yetzhygil@gmail.com</p>
+  </div>
+  <div class="copyright">
+  <p>Este sitio es un proyecto educativo y no representa la página oficial del Complejo Educativo José Gregorio Monagas. Visita la página oficial <a href="https://sites.google.com/view/lnjosegregoriomonagas/p%C3%A1gina-principal" target="_blank"rel="noopener noreferrer">aquí</a>.</p>
+  </div>
+  </footer>
+
+
+<script>
+  if (window.location.hash) {
+    window.history.replaceState(null, null, ' ');
+  }
+</script>
+
+
+</body>
+</html>
